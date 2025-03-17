@@ -1,1 +1,14 @@
-//
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-button {
+  @apply w-full py-3 my-2 rounded-md text-lg font-medium transition-all;
+  background-color: #1f2937;
+  color: white;
+}
+
+.nav-button:hover {
+  background-color: limegreen;
+  color: black;
+}
